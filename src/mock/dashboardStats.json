@@ -1,0 +1,7 @@
+{
+  "totalSearches": { "value": 18432, "delta": "+8.2%", "trend": "up" },
+  "todaySearches": { "value": 214, "delta": "+12.5%", "trend": "up" },
+  "successfulRequests": { "value": "99.4%", "delta": "+0.3%", "trend": "up" },
+  "avgResponseTime": { "value": "412ms", "delta": "-6.1%", "trend": "down" },
+  "countriesUsed": { "value": 27, "delta": "+2", "trend": "up" }
+}

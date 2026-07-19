@@ -1,0 +1,8 @@
+[
+  { "id": 1, "type": "search", "message": "Search executed for \"best developer tools\"", "time": "5 minutes ago" },
+  { "id": 2, "type": "settings", "message": "Default country changed to United States", "time": "42 minutes ago" },
+  { "id": 3, "type": "saved", "message": "Saved search \"React vs Vue comparisons\"", "time": "2 hours ago" },
+  { "id": 4, "type": "history", "message": "Cleared 3 entries from search history", "time": "Yesterday" },
+  { "id": 5, "type": "search", "message": "Search executed for \"python web scraping\"", "time": "Yesterday" },
+  { "id": 6, "type": "settings", "message": "Notifications enabled", "time": "2 days ago" }
+]

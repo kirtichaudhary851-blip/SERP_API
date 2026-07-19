@@ -1,0 +1,19 @@
+{
+  "baseUrl": "https://api.customserp.dev",
+  "authentication": {
+    "header": "Authorization: Bearer <YOUR_API_KEY>",
+    "notice": "Authentication is not enforced yet. The Python backend will require an API key on every request once it ships — this reference already reflects that contract so integration work can start now."
+  },
+  "rateLimits": [
+    { "plan": "Free", "limit": "100 requests / day", "burst": "5 requests / second" },
+    { "plan": "Developer", "limit": "5,000 requests / day", "burst": "20 requests / second" },
+    { "plan": "Scale", "limit": "Custom", "burst": "Custom" }
+  ],
+  "statusCodes": [
+    { "code": 200, "label": "OK", "description": "The request succeeded and the response contains the requested data." },
+    { "code": 400, "label": "Bad Request", "description": "The request was malformed or missing a required parameter." },
+    { "code": 401, "label": "Unauthorized", "description": "The API key was missing or invalid." },
+    { "code": 429, "label": "Too Many Requests", "description": "The request was rate limited for the current plan." },
+    { "code": 500, "label": "Internal Server Error", "description": "Something went wrong while processing the request." }
+  ]
+}

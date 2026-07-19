@@ -1,5 +1,16 @@
 export const ROUTES = Object.freeze({
   home: '/',
   documentation: '/documentation',
+  docsPlayground: '/documentation/playground',
+  docsSdkExamples: '/documentation/sdk-examples',
+  docsErrorCodes: '/documentation/error-codes',
+  docsChangelog: '/documentation/changelog',
   about: '/about',
+  search: '/search',
+  results: '/results',
+  dashboard: '/dashboard',
+  dashboardHistory: '/dashboard/history',
+  dashboardAnalytics: '/dashboard/analytics',
+  dashboardSaved: '/dashboard/saved-searches',
+  dashboardSettings: '/dashboard/settings',
 })

@@ -1,0 +1,44 @@
+[
+  {
+    "code": 400,
+    "title": "Bad Request",
+    "message": "One or more parameters are invalid or missing.",
+    "cause": "A required parameter such as q was omitted, or a value failed validation (for example an unsupported country code).",
+    "resolution": "Check the parameters table for the endpoint and confirm all required fields are present and correctly typed."
+  },
+  {
+    "code": 401,
+    "title": "Unauthorized",
+    "message": "The request could not be authenticated.",
+    "cause": "The Authorization header was missing, malformed, or contained an invalid API key.",
+    "resolution": "Confirm the Authorization: Bearer <YOUR_API_KEY> header is present on every request once authentication is enabled."
+  },
+  {
+    "code": 403,
+    "title": "Forbidden",
+    "message": "The API key is valid but not allowed to access this resource.",
+    "cause": "The current plan does not include access to this endpoint or feature.",
+    "resolution": "Upgrade the plan or remove the restricted parameter from the request."
+  },
+  {
+    "code": 404,
+    "title": "Not Found",
+    "message": "The requested endpoint does not exist.",
+    "cause": "The request path was misspelled or uses a version that is no longer available.",
+    "resolution": "Double check the endpoint path against the API Reference section of these docs."
+  },
+  {
+    "code": 429,
+    "title": "Too Many Requests",
+    "message": "The request was rejected due to rate limiting.",
+    "cause": "The number of requests sent within the current window exceeded the plan's rate limit.",
+    "resolution": "Slow down request frequency, add backoff/retry logic, or upgrade to a higher plan."
+  },
+  {
+    "code": 500,
+    "title": "Internal Server Error",
+    "message": "Something went wrong while processing the request.",
+    "cause": "An unexpected failure occurred on the server while handling an otherwise valid request.",
+    "resolution": "Retry the request. If the problem persists, it is safe to assume the issue is on our end, not the request."
+  }
+]

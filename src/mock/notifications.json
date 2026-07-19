@@ -1,0 +1,6 @@
+[
+  { "id": 1, "title": "Search completed", "message": "Your search for \"best developer tools\" returned 6 results.", "time": "5 minutes ago", "read": false },
+  { "id": 2, "title": "Saved search created", "message": "\"React vs Vue comparisons\" was added to your saved searches.", "time": "2 hours ago", "read": false },
+  { "id": 3, "title": "History cleared", "message": "3 entries were removed from your search history.", "time": "Yesterday", "read": true },
+  { "id": 4, "title": "Settings updated", "message": "Your default country was changed to United States.", "time": "2 days ago", "read": true }
+]

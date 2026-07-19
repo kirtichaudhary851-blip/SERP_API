@@ -1,0 +1,23 @@
+[
+  {
+    "version": "0.3.0",
+    "date": "2026-07-01",
+    "features": ["Added the Account Status endpoint for checking plan usage and quota."],
+    "improvements": ["Documented rate limits per plan tier."],
+    "fixes": []
+  },
+  {
+    "version": "0.2.0",
+    "date": "2026-05-14",
+    "features": ["Introduced the device parameter to simulate desktop or mobile results."],
+    "improvements": ["Standardized error response shape across all endpoints."],
+    "fixes": ["Corrected pagination example showing an off-by-one page count."]
+  },
+  {
+    "version": "0.1.0",
+    "date": "2026-03-20",
+    "features": ["Initial public preview of the Web Search endpoint.", "Country and language localization support."],
+    "improvements": [],
+    "fixes": []
+  }
+]

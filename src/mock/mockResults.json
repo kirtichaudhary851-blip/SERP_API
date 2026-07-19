@@ -1,0 +1,11 @@
+{
+  "summary": { "query": "best developer tools", "totalResults": "About 1,240,000 results", "searchTime": "0.42 seconds", "country": "United States", "language": "English" },
+  "results": [
+    { "position": 1, "title": "The best developer tools for building faster", "url": "https://example.dev/developer-tools", "breadcrumb": "example.dev › guides › developer-tools", "description": "A curated guide to the tools, platforms, and workflows helping modern engineering teams ship better software." },
+    { "position": 2, "title": "Developer productivity: tools worth knowing", "url": "https://buildbetter.io/resources/productivity", "breadcrumb": "buildbetter.io › resources", "description": "Explore practical tools for code quality, collaboration, deployment, and everything in between." },
+    { "position": 3, "title": "Essential tools for software teams", "url": "https://workspace.tech/collections/essential-tools", "breadcrumb": "workspace.tech › collections", "description": "A thoughtful collection of trusted software tools for developers, designers, and product teams." },
+    { "position": 4, "title": "A modern engineering stack", "url": "https://shipfast.com/blog/engineering-stack", "breadcrumb": "shipfast.com › blog", "description": "What a focused, scalable development stack looks like in 2026, from local development through production." },
+    { "position": 5, "title": "Tools that make developers happier", "url": "https://makers.net/articles/dev-tools", "breadcrumb": "makers.net › articles", "description": "Small improvements to your daily toolkit can compound into a more productive, enjoyable development experience." },
+    { "position": 6, "title": "The developer toolkit directory", "url": "https://toolbox.dev/directory", "breadcrumb": "toolbox.dev › directory", "description": "Discover software and services used by high-performing teams across the web." }
+  ]
+}

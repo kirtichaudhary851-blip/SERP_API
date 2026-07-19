@@ -1,0 +1,43 @@
+[
+  {
+    "id": "web-search",
+    "method": "GET",
+    "path": "/v1/search",
+    "summary": "Web Search",
+    "description": "Retrieve structured organic search results for a given query, localized by country, language, and device.",
+    "parameters": [
+      { "name": "q", "type": "string", "required": true, "default": "-", "description": "The search query to run." },
+      { "name": "country", "type": "string", "required": false, "default": "us", "description": "Two-letter country code used to localize results." },
+      { "name": "language", "type": "string", "required": false, "default": "en", "description": "Two-letter language code for the response content." },
+      { "name": "device", "type": "string", "required": false, "default": "desktop", "description": "Device to simulate when generating results: desktop or mobile." },
+      { "name": "num", "type": "integer", "required": false, "default": "10", "description": "Number of results to return. One of 10, 20, or 50." },
+      { "name": "page", "type": "integer", "required": false, "default": "1", "description": "Page of results to retrieve, used together with num." }
+    ],
+    "exampleResponse": {
+      "query": "best developer tools",
+      "country": "us",
+      "language": "en",
+      "totalResults": "About 1,240,000 results",
+      "searchTime": "0.42 seconds",
+      "results": [
+        { "position": 1, "title": "The best developer tools for building faster", "url": "https://example.dev/developer-tools", "description": "A curated guide to the tools, platforms, and workflows helping modern engineering teams ship better software." },
+        { "position": 2, "title": "Developer productivity: tools worth knowing", "url": "https://buildbetter.io/resources/productivity", "description": "Explore practical tools for code quality, collaboration, deployment, and everything in between." },
+        { "position": 3, "title": "Essential tools for software teams", "url": "https://workspace.tech/collections/essential-tools", "description": "A thoughtful collection of trusted software tools for developers, designers, and product teams." }
+      ]
+    }
+  },
+  {
+    "id": "search-status",
+    "method": "GET",
+    "path": "/v1/status",
+    "summary": "Account Status",
+    "description": "Check API key usage and remaining quota for the current billing period.",
+    "parameters": [],
+    "exampleResponse": {
+      "plan": "Developer",
+      "requestsUsed": 428,
+      "requestsLimit": 5000,
+      "resetsAt": "2026-08-01T00:00:00Z"
+    }
+  }
+]

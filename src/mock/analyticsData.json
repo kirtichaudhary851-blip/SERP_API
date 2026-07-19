@@ -1,0 +1,52 @@
+{
+  "searchesPerDay": [
+    { "date": "Jul 06", "searches": 420 },
+    { "date": "Jul 07", "searches": 512 },
+    { "date": "Jul 08", "searches": 388 },
+    { "date": "Jul 09", "searches": 601 },
+    { "date": "Jul 10", "searches": 574 },
+    { "date": "Jul 11", "searches": 690 },
+    { "date": "Jul 12", "searches": 542 },
+    { "date": "Jul 13", "searches": 615 },
+    { "date": "Jul 14", "searches": 703 },
+    { "date": "Jul 15", "searches": 668 },
+    { "date": "Jul 16", "searches": 734 },
+    { "date": "Jul 17", "searches": 691 },
+    { "date": "Jul 18", "searches": 758 },
+    { "date": "Jul 19", "searches": 214 }
+  ],
+  "topCountries": [
+    { "name": "United States", "searches": 6120 },
+    { "name": "India", "searches": 4310 },
+    { "name": "United Kingdom", "searches": 2145 },
+    { "name": "Canada", "searches": 1580 },
+    { "name": "Australia", "searches": 990 }
+  ],
+  "topLanguages": [
+    { "name": "English", "searches": 11230 },
+    { "name": "Hindi", "searches": 2890 },
+    { "name": "Spanish", "searches": 1740 },
+    { "name": "French", "searches": 980 },
+    { "name": "German", "searches": 610 }
+  ],
+  "deviceUsage": [
+    { "name": "Desktop", "value": 68 },
+    { "name": "Mobile", "value": 32 }
+  ],
+  "topKeywords": [
+    { "keyword": "best developer tools", "count": 812 },
+    { "keyword": "react vs vue", "count": 604 },
+    { "keyword": "python web scraping", "count": 588 },
+    { "keyword": "serp api pricing", "count": 471 },
+    { "keyword": "site indexing checker", "count": 355 }
+  ],
+  "responseTimeTrend": [
+    { "date": "Jul 13", "ms": 448 },
+    { "date": "Jul 14", "ms": 431 },
+    { "date": "Jul 15", "ms": 456 },
+    { "date": "Jul 16", "ms": 402 },
+    { "date": "Jul 17", "ms": 419 },
+    { "date": "Jul 18", "ms": 397 },
+    { "date": "Jul 19", "ms": 412 }
+  ]
+}
