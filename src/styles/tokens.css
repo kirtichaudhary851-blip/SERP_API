@@ -1,0 +1,34 @@
+:root {
+  color-scheme: light;
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+  --color-subtle: #f1f5f9;
+  --color-text: #334155;
+  --color-heading: #0f172a;
+  --color-muted: #64748b;
+  --color-border: #e2e8f0;
+  --color-brand: #2563eb;
+  --color-brand-hover: #1d4ed8;
+  --color-focus: #93c5fd;
+  --color-success: #15803d;
+  --color-success-subtle: #dcfce7;
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, .05);
+}
+
+/* Apply data-theme="dark" on the root element when theme controls are added. */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-background: #0f172a;
+  --color-surface: #1e293b;
+  --color-subtle: #334155;
+  --color-text: #cbd5e1;
+  --color-heading: #f8fafc;
+  --color-muted: #94a3b8;
+  --color-border: #334155;
+  --color-brand: #60a5fa;
+  --color-brand-hover: #93c5fd;
+  --color-focus: #2563eb;
+  --color-success: #86efac;
+  --color-success-subtle: #14532d;
+}
