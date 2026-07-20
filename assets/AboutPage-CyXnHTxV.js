@@ -1,1 +1,0 @@
-import{j as e}from"./index-aaVZ9njR.js";function n(){return e.jsxs("section",{className:"container page-placeholder",children:[e.jsx("h1",{children:"About"}),e.jsx("p",{children:"About content will be introduced in a later phase."})]})}export{n as default};

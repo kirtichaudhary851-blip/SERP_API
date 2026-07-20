@@ -1,1 +1,0 @@
-import{j as e,L as n,R as o}from"./index-aaVZ9njR.js";function a(){return e.jsxs("main",{className:"container page-placeholder",children:[e.jsx("h1",{children:"404"}),e.jsx("p",{children:"The page you requested could not be found."}),e.jsx(n,{className:"button button--primary",to:o.home,children:"Return home"})]})}export{a as default};
