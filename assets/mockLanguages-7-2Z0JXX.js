@@ -1,0 +1,1 @@
+const e=[{code:"us",name:"United States"},{code:"in",name:"India"},{code:"gb",name:"United Kingdom"},{code:"ca",name:"Canada"},{code:"au",name:"Australia"}],n=[{code:"en",name:"English"},{code:"hi",name:"Hindi"},{code:"es",name:"Spanish"},{code:"fr",name:"French"},{code:"de",name:"German"}];export{e as c,n as l};

@@ -1,0 +1,1 @@
+const e=Object.freeze({idle:"idle",loading:"loading",success:"success",empty:"empty",error:"error"}),t=Object.freeze({country:"us",language:"en",device:"Desktop",resultCount:"10",safeSearch:"Moderate"}),s=Object.freeze(["10","20","50"]),c=Object.freeze(["Desktop","Mobile"]),r=Object.freeze(["Moderate","Strict","Off"]);export{c as D,s as R,r as S,t as a,e as b};
